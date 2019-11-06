@@ -1,0 +1,51 @@
+2019/11/06 17:22:47.773 INFO  - [main] CqrsDemoApplication - Starting CqrsDemoApplication on ipa_d1785 with PID 9760 (D:\test\cqrs-demo\target\classes started by hung.pham3 in D:\test\cqrs-demo)
+2019/11/06 17:22:47.835 INFO  - [main] CqrsDemoApplication - No active profile set, falling back to default profiles: default
+2019/11/06 17:22:48.292 INFO  - [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/11/06 17:22:48.314 INFO  - [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019/11/06 17:22:48.355 INFO  - [main] ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019/11/06 17:22:48.454 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.466 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.467 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.474 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#8ee0c23' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.475 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#8ee0c23' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.476 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#ad9e63e' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.476 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#ad9e63e' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.478 INFO  - [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/11/06 17:22:48.594 INFO  - [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019/11/06 17:22:48.600 INFO  - [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019/11/06 17:22:48.601 INFO  - [main] StandardService - Starting service [Tomcat]
+2019/11/06 17:22:48.603 INFO  - [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019/11/06 17:22:48.672 INFO  - [main] [/cqrs-demo/v1] - Initializing Spring embedded WebApplicationContext
+2019/11/06 17:22:48.672 INFO  - [main] ContextLoader - Root WebApplicationContext: initialization completed in 813 ms
+2019/11/06 17:22:48.698 INFO  - [main] HikariDataSource - HikariPool-1 - Starting...
+2019/11/06 17:22:48.800 INFO  - [main] HikariDataSource - HikariPool-1 - Start completed.
+2019/11/06 17:22:48.804 INFO  - [main] H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/hung.pham3/testdb'
+2019/11/06 17:22:48.870 INFO  - [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019/11/06 17:22:48.904 INFO  - [main] Version - HHH000412: Hibernate Core {5.4.6.Final}
+2019/11/06 17:22:48.969 INFO  - [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019/11/06 17:22:49.020 INFO  - [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019/11/06 17:22:49.387 INFO  - [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019/11/06 17:22:49.391 INFO  - [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019/11/06 17:22:49.497 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.498 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.542 WARN  - [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019/11/06 17:22:49.615 INFO  - [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019/11/06 17:22:49.684 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.684 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.784 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.785 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.786 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.786 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.791 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.791 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.792 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.793 INFO  - [main] ChainingConverter - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+2019/11/06 17:22:49.891 INFO  - [main] AxonServerConnectionManager - Connecting using unencrypted connection...
+2019/11/06 17:22:50.340 INFO  - [main] AxonServerConnectionManager - Re-subscribing commands and queries
+2019/11/06 17:22:50.344 INFO  - [main] AxonServerCommandBus - Creating new subscriber
+2019/11/06 17:22:50.375 INFO  - [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019/11/06 17:22:50.386 INFO  - [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/cqrs-demo/v1'
+2019/11/06 17:22:50.388 INFO  - [main] CqrsDemoApplication - Started CqrsDemoApplication in 2.896 seconds (JVM running for 3.418)
+2019/11/06 17:22:50.430 INFO  - [EventProcessor[OrderManagementSagaProcessor]-0] TrackingEventProcessor - Using current Thread for last segment worker: TrackingSegmentWorker{processor=OrderManagementSagaProcessor, segment=Segment[0/0]}
+2019/11/06 17:22:50.433 INFO  - [EventProcessor[OrderManagementSagaProcessor]-0] TrackingEventProcessor - Fetched token: IndexTrackingToken{globalIndex=7} for segment: Segment[0/0]
+2019/11/06 17:22:50.438 INFO  - [EventProcessor[OrderManagementSagaProcessor]-0] AxonServerEventStore - open stream: 8
